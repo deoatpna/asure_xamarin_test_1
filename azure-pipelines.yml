@@ -30,3 +30,4 @@ steps:
     configuration: 'Release'
     buildForSimulator: true
     packageApp: true
+    args: /p:IpaPackageDir="/Users/deokalule/ipas"
