@@ -42,5 +42,7 @@ steps:
     packageApp: true
     args: /p:IpaPackageDir="/Users/deokalule/ipas"
 
+- task: VSTest@2
+
 
 
