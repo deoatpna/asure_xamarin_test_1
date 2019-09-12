@@ -34,13 +34,6 @@ steps:
     outputDirectory: '$(outputDirectory)'
     configuration: '$(buildConfiguration)'
 
-- task: XamariniOS@2
-  inputs:
-    solutionFile: '**/*.sln'
-    configuration: 'Release'
-    buildForSimulator: true
-    packageApp: true
-    args: /p:IpaPackageDir="/Users/deokalule/ipas"
 
 - task: VSTest@2
 
