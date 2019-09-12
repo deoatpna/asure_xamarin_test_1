@@ -1,34 +1,39 @@
-﻿<Properties StartupConfiguration="{2114F556-4D8E-4351-98F1-4647CDA77551}|Default">
-  <MonoDevelop.Ide.ItemProperties.asure__xamarin__test__1.Android PreferredExecutionTarget="Android.FA79K1A04426" />
+﻿<Properties StartupConfiguration="{BB7BDDFB-5B0F-48E2-8FA4-1166D0609778}|Default">
+  <MonoDevelop.Ide.ItemProperties.asure__xamarin__test__1.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.ItemProperties.asure__xamarin__test__1.tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="asure_xamarin_test_1.UITests/Tests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="asure_xamarin_test_1.tests/TestTests.cs">
     <Files>
       <File FileName="asure_xamarin_test_1/MainPage.xaml.cs" Line="22" Column="1" />
-      <File FileName="asure_xamarin_test_1/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="asure_xamarin_test_1.tests/UnitTest1.cs" Line="8" Column="21" />
-      <File FileName="asure_xamarin_test_1.UITests/Tests.cs" Line="4" Column="23" />
+      <File FileName="asure_xamarin_test_1/MainPage.xaml" />
+      <File FileName="asure_xamarin_test_1.UITests/Tests.cs" />
+      <File FileName="asure_xamarin_test_1.tests/TestTests.cs" Line="8" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="asure_xamarin_test_1" expanded="True">
-            <Node name="asure_xamarin_test_1.tests" expanded="True" />
-            <Node name="asure_xamarin_test_1.UITests" expanded="True">
-              <Node name="Packages" expanded="True" />
-              <Node name="Tests.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="asure_xamarin_test_1" expanded="True">
-            <Node name="asure_xamarin_test_1.UITests" expanded="True">
-              <Node name="asure_xamarin_test_1" expanded="True">
-                <Node name="Tests(iOS)" expanded="True">
-                  <Node name="WelcomeTextIsDisplayed" selected="True" />
-                </Node>
+            <Node name="asure_xamarin_test_1" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="SdkDependencies" expanded="True" />
               </Node>
+            </Node>
+            <Node name="asure_xamarin_test_1.Android" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Assets" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+            <Node name="asure_xamarin_test_1.tests" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="ProjectDependencies" expanded="True" />
+                <Node name="SdkDependencies" expanded="True" />
+              </Node>
+              <Node name="TestTests.cs" selected="True" />
+            </Node>
+            <Node name="asure_xamarin_test_1.UITests" expanded="True">
+              <Node name="References" expanded="True" />
             </Node>
           </Node>
         </State>
