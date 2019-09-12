@@ -17,5 +17,10 @@ namespace asure_xamarin_test_1
         {
             InitializeComponent();
         }
+
+        public static bool HelloWorld()
+        {
+            return true;
+        }
     }
 }

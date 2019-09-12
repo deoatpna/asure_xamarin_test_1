@@ -17,5 +17,11 @@ namespace asure_xamarin_test_1.tests
         {
             Assert.IsTrue(true);
         }
+
+        [TestMethod]
+        public void HelloWorldTest()
+        {
+            Assert.IsTrue(MainPage.HelloWorld());
+        }
     }
 }
