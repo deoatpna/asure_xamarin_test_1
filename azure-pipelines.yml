@@ -53,13 +53,11 @@ steps:
   inputs:
     command: build
     projects: '**/*tests/*.csproj'
-    arguments: '--configuration Release'
 
 - task: DotNetCoreCLI@2
   inputs:
     command: test
     projects: '**/*tests/*.csproj'
-    arguments: '--configuration $(buildConfiguration)'
 
 
 
