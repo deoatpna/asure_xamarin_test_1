@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'#'macos-latest' #'vs2017-win2016' 
+  vmImage: 'macos-latest' 
   
 variables:
   buildPlatform: 'Any CPU'
@@ -35,7 +35,12 @@ steps:
     outputDirectory: '$(outputDirectory)'
     configuration: '$(buildConfiguration)'
 
-    
+- task: XamariniOS@2
+  inputs:
+    solutionFile: '**/*.sln'
+    configuration: 'Release'
+    buildForSimulator: true
+    packageApp: false
 
 
 - task: VSTest@2
