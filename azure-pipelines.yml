@@ -8,6 +8,10 @@ trigger:
 
 pool:
   vmImage: 'macos-latest'
+  
+variables:
+  buildConfiguration: 'Release'
+  outputDirectory: '$(build.binariesDirectory)/$(buildConfiguration)'
 
 steps:
 # To manually select a Xamarin SDK version on the Microsoft-hosted macOS agent,
@@ -23,6 +27,11 @@ steps:
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '**/*.sln'
+- task: XamarinAndroid@1
+  inputs:
+    projectFile: '**/*Droid*.csproj'
+    outputDirectory: '$(outputDirectory)'
+    configuration: '$(buildConfiguration)'
 
 - task: XamariniOS@2
   inputs:
@@ -31,3 +40,6 @@ steps:
     buildForSimulator: true
     packageApp: true
     args: /p:IpaPackageDir="/Users/deokalule/ipas"
+
+
+
